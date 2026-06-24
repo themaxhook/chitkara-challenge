@@ -103,6 +103,30 @@ export default function App() {
       <header className="header">
         <h1>Hierarchy Visualizer</h1>
         <p>Analyze, deduplicate, and visualize node hierarchies with instant cycle detection and tree building.</p>
+        
+        {/* Credentials Header Block */}
+        <div style={{
+          marginTop: '1.5rem',
+          display: 'inline-flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          flexWrap: 'wrap',
+          gap: '1rem',
+          fontSize: '0.95rem',
+          fontWeight: '500',
+          color: 'var(--text-secondary)',
+          background: 'var(--bg-card)',
+          border: '1px solid var(--bg-card-border)',
+          borderRadius: 'var(--radius-full)',
+          padding: '0.6rem 1.5rem',
+          boxShadow: 'var(--shadow-sm)'
+        }}>
+          <span>User ID: <strong style={{ color: 'var(--text-primary)' }}>BharatChhabra_09122003</strong></span>
+          <span style={{ color: 'var(--bg-surface-border)', margin: '0 0.25rem' }}>|</span>
+          <span>Email: <strong style={{ color: 'var(--text-primary)' }}>bharat1151.be23@chitkarauniversity.edu.in</strong></span>
+          <span style={{ color: 'var(--bg-surface-border)', margin: '0 0.25rem' }}>|</span>
+          <span>Roll No: <strong style={{ color: 'var(--text-primary)' }}>2311981151</strong></span>
+        </div>
       </header>
 
       <div className="dashboard-grid">
