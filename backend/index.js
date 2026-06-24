@@ -221,9 +221,9 @@ app.post('/bfhl', (req, res) => {
 
     // Response structure matching user challenge specification
     const responsePayload = {
-      user_id: "antigravity_24062026",
-      email_id: "antigravity.assistant@gmail.com",
-      college_roll_number: "ANTIGRAVITY001",
+      user_id: "Bharat912",
+      email_id: "bharat1151.be23@chitkarauniversity.edu.in",
+      college_roll_number: "2311981151",
       hierarchies,
       invalid_entries,
       duplicate_edges,
