@@ -36,15 +36,7 @@ function TreeViewer({ treeData }) {
 }
 
 export default function App() {
-  const defaultInput = `[
-  "A->B", "A->C", "B->D", "C->E", "E->F",
-  "X->Y", "Y->Z", "Z->X",
-  "P->Q", "Q->R",
-  "G->H", "G->H", "G->I",
-  "hello", "1->2", "A->"
-]`;
-
-  const [inputData, setInputData] = useState(defaultInput);
+  const [inputData, setInputData] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [response, setResponse] = useState(null);
