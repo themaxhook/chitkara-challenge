@@ -109,7 +109,7 @@ export default function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>Chitkara Hierarchy Visualizer</h1>
+        <h1>Hierarchy Visualizer</h1>
         <p>Analyze, deduplicate, and visualize node hierarchies with instant cycle detection and tree building.</p>
       </header>
 
